@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header
       className={`${
-        bg ? 'bg-white shadow-lg py-5' : 'py-9'
+        bg ? 'bg-white shadow-lg py-3' : 'py-5'
       } fixed left-0 right-0 z-50 transition-all duration-300`}
     >
       <ClickAwayListener onClickAway={() => setShowNav(false)}>
