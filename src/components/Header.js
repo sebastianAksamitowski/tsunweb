@@ -45,7 +45,6 @@ const Header = () => {
                       onClick={() => setShowNav(!showNav)}
                       to={item.name}
                       activeClass='active'
-                      spy={true}
                       smooth={true}
                       duration={500}
                       className='transition-all'
