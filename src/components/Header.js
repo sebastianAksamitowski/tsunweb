@@ -47,7 +47,6 @@ const Header = () => {
                       activeClass='active'
                       spy={true}
                       smooth={true}
-                      offset={-20}
                       duration={500}
                       className='transition-all'
                     >
