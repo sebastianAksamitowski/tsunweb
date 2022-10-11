@@ -59,9 +59,9 @@ const Header = () => {
             </ul>
             <div onClick={() => setShowNav(!showNav)}>
               {showNav ? (
-                <RiCloseFill className='w-8 h-8' />
+                <RiCloseFill className='cursor-pointer w-8 h-8' />
               ) : (
-                <RiBarChartHorizontalLine className='w-8 h-8' />
+                <RiBarChartHorizontalLine className='cursor-pointer w-8 h-8' />
               )}
             </div>
           </div>

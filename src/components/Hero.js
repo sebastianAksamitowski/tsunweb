@@ -32,7 +32,6 @@ const Hero = () => {
               to='contact'
               smooth={true}
               duration={500}
-              offset={-20}
               className='transition-all'
             >
               <button className='btn bg-accent mx-auto lg:mx-0 mb-6 shadow-xl shadow-[#fd59566b] relative z-10'>
